@@ -30,7 +30,7 @@ const Navbar = ({ cartCount, toggleCart }: NavbarProps) => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <Link to="/" className="text-2xl font-bold text-blue-900">
-            NextGenShop
+            Majestic Home Decor
           </Link>
 
           {/* Desktop Navigation */}

@@ -9,7 +9,7 @@ const Footer = () => {
       <div className="container mx-auto px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div>
-            <h3 className="text-xl font-bold mb-4">NextGenShop</h3>
+            <h3 className="text-xl font-bold mb-4">Majestic Home Decor</h3>
             <p className="text-gray-300 mb-4">
               Your one-stop destination for quality products at affordable prices. Shop with confidence.
             </p>
@@ -106,7 +106,7 @@ const Footer = () => {
               </li>
               <li className="flex items-center">
                 <Mail size={20} className="mr-2 text-coral-400" />
-                <span className="text-gray-300">support@nextgenshop.com</span>
+                <span className="text-gray-300">support@majestichomedecor.com</span>
               </li>
             </ul>
           </div>
@@ -114,7 +114,7 @@ const Footer = () => {
         
         <div className="border-t border-gray-700 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-400 text-sm mb-4 md:mb-0">
-            &copy; {new Date().getFullYear()} NextGenShop. All rights reserved.
+            &copy; {new Date().getFullYear()} Majestic Home Decor. All rights reserved.
           </p>
           <div className="flex items-center">
             <img src="https://cdn.iconscout.com/icon/free/png-256/free-visa-5-226400.png" alt="Visa" className="h-8 mr-2" />
