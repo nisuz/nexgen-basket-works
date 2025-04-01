@@ -33,7 +33,7 @@ const Newsletter = () => {
     <section className="bg-gray-50 py-16">
       <div className="container mx-auto px-4">
         <div className="max-w-3xl mx-auto text-center">
-          <h2 className="text-3xl font-bold mb-3 text-blue-900">Stay Updated with NextGenShop</h2>
+          <h2 className="text-3xl font-bold mb-3 text-blue-900">Stay Updated with Majestic Home Decor</h2>
           <p className="text-gray-600 mb-6">
             Subscribe to our newsletter for exclusive offers, new arrivals and shopping tips.
           </p>
