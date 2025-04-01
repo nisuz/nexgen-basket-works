@@ -66,7 +66,7 @@ const ProductGrid: React.FC<ProductGridProps> = ({ products, addToCart, isLoadin
             <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-20 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
               <Link 
                 to={`/product/${product.id}`} 
-                className="bg-white text-blue-900 py-2 px-4 rounded-md mr-2 hover:bg-blue-50 transition-colors"
+                className="bg-white text-[#403E43] py-2 px-4 rounded-md mr-2 hover:bg-[#F1F0FB] transition-colors"
               >
                 Quick View
               </Link>
@@ -78,13 +78,13 @@ const ProductGrid: React.FC<ProductGridProps> = ({ products, addToCart, isLoadin
               <div>
                 <Badge variant="secondary" className="mb-2">{product.category}</Badge>
                 <h3 className="font-semibold text-lg mb-1 text-gray-800">{product.name}</h3>
-                <p className="text-blue-900 font-bold">${product.price.toFixed(2)}</p>
+                <p className="text-[#403E43] font-bold">${product.price.toFixed(2)}</p>
               </div>
             </div>
             
             <Button 
               onClick={() => addToCart(product)} 
-              className="w-full mt-4 bg-blue-900 hover:bg-blue-800 text-white flex items-center justify-center gap-2"
+              className="w-full mt-4 bg-[#403E43] hover:bg-[#221F26] text-white flex items-center justify-center gap-2"
             >
               <ShoppingCart size={16} />
               Add to Cart

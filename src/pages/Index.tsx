@@ -61,7 +61,7 @@ const Index = () => {
         <Hero />
         <FeaturedCategories />
         <section className="container mx-auto px-4 py-12">
-          <h2 className="text-3xl font-bold mb-8 text-center">Popular Products</h2>
+          <h2 className="text-3xl font-bold mb-8 text-center">Popular Items</h2>
           <ProductGrid 
             products={products} 
             addToCart={addToCart} 
@@ -87,67 +87,93 @@ const Index = () => {
 const MOCK_PRODUCTS: ProductType[] = [
   {
     id: 1,
-    name: "Classic White Sneakers",
-    price: 89.99,
-    category: "Footwear",
-    image: "https://images.unsplash.com/photo-1649972904349-6e44c42644a7",
-    description: "Minimalist white sneakers perfect for any casual outfit. Made with premium materials for comfort and durability."
+    name: "Scandinavian Floor Lamp",
+    price: 129.99,
+    category: "Lighting",
+    image: "https://images.unsplash.com/photo-1507473885765-e6ed057f782c",
+    description: "Minimalist wooden floor lamp with adjustable height and linen shade, perfect for any modern living space.",
+    options: {
+      color: ["Natural Wood", "Black", "White"]
+    }
   },
   {
     id: 2,
-    name: "Wireless Noise-Cancelling Headphones",
-    price: 249.99,
-    category: "Electronics",
-    image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d",
-    description: "Premium wireless headphones with industry-leading noise cancellation and impressive sound quality."
+    name: "Handwoven Cotton Throw",
+    price: 49.99,
+    category: "Textiles",
+    image: "https://images.unsplash.com/photo-1522758971460-1d21eed7dc1d",
+    description: "Soft handwoven cotton throw with decorative tassels, ideal for adding texture and warmth to your sofa or bed.",
+    options: {
+      color: ["Cream", "Grey", "Terracotta", "Sage"]
+    }
   },
   {
     id: 3,
-    name: "Organic Cotton T-shirt",
-    price: 29.99,
-    category: "Clothing",
-    image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158",
-    description: "Soft and sustainable organic cotton t-shirt, perfect for everyday wear."
+    name: "Ceramic Vase Set",
+    price: 79.99,
+    category: "Decorative",
+    image: "https://images.unsplash.com/photo-1493957988430-a5f2e15f39a3",
+    description: "Set of three handcrafted ceramic vases in varying heights, perfect for fresh or dried flower arrangements.",
+    options: {
+      color: ["Matte White", "Sand", "Dusty Blue"]
+    }
   },
   {
     id: 4,
-    name: "Stainless Steel Water Bottle",
+    name: "Woven Storage Basket",
     price: 34.99,
-    category: "Accessories",
-    image: "https://images.unsplash.com/photo-1531297484001-80022131f5a1",
-    description: "Double-walled insulated water bottle that keeps drinks cold for 24 hours or hot for 12 hours."
+    category: "Storage",
+    image: "https://images.unsplash.com/photo-1584589167171-541ce45f1eea",
+    description: "Natural fiber woven basket with handles, ideal for stylish storage of blankets, toys, or magazines.",
+    options: {
+      size: ["Small", "Medium", "Large"]
+    }
   },
   {
     id: 5,
-    name: "Smartwatch Pro",
-    price: 199.99,
-    category: "Electronics",
-    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f",
-    description: "Feature-packed smartwatch with health tracking, notifications, and customizable watch faces."
+    name: "Macramé Wall Hanging",
+    price: 59.99,
+    category: "Wall Decor",
+    image: "https://images.unsplash.com/photo-1631477076114-9123dfccc09e",
+    description: "Handcrafted cotton macramé wall hanging on a wooden dowel, adding texture and bohemian charm to any room.",
+    options: {
+      size: ["Small", "Medium", "Large"]
+    }
   },
   {
     id: 6,
-    name: "Minimalist Leather Wallet",
-    price: 49.99,
-    category: "Accessories",
-    image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
-    description: "Slim and stylish leather wallet with RFID protection and multiple card slots."
+    name: "Marble Serving Board",
+    price: 45.99,
+    category: "Kitchen",
+    image: "https://images.unsplash.com/photo-1615484477778-ca3b77940c25",
+    description: "Elegant marble serving board with metallic inlay, perfect for cheese platters or as a decorative accent.",
+    options: {
+      material: ["White Marble", "Black Marble"]
+    }
   },
   {
     id: 7,
-    name: "Portable Bluetooth Speaker",
-    price: 79.99,
-    category: "Electronics",
-    image: "https://images.unsplash.com/photo-1519389950473-47ba0277781c",
-    description: "Compact and powerful Bluetooth speaker with 20-hour battery life and waterproof design."
+    name: "Scented Soy Candle",
+    price: 29.99,
+    category: "Home Fragrance",
+    image: "https://images.unsplash.com/photo-1602523069431-40e9f2176210",
+    description: "Hand-poured soy wax candle in a ceramic vessel with wooden lid, featuring natural essential oil fragrance.",
+    options: {
+      color: ["White", "Grey", "Terracotta"],
+      size: ["8oz", "12oz"]
+    }
   },
   {
     id: 8,
-    name: "Modern Accent Chair",
-    price: 199.99,
-    category: "Furniture",
-    image: "https://images.unsplash.com/photo-1721322800607-8c38375eef04",
-    description: "Stylish and comfortable accent chair that adds a modern touch to any room."
+    name: "Velvet Accent Pillow",
+    price: 39.99,
+    category: "Textiles",
+    image: "https://images.unsplash.com/photo-1584304773337-6a633bd0ce5a",
+    description: "Luxurious velvet pillow with piped edges, adding a touch of elegance and comfort to any seating area.",
+    options: {
+      color: ["Emerald", "Navy", "Rust", "Blush"],
+      size: ["18x18", "20x20"]
+    }
   },
 ];
 

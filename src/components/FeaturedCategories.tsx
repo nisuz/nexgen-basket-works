@@ -29,34 +29,34 @@ const FeaturedCategories: React.FC = () => {
   const categories = [
     {
       id: 1,
-      title: "Electronics",
-      image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
-      link: "/category/electronics"
+      title: "Lighting",
+      image: "https://images.unsplash.com/photo-1507473885765-e6ed057f782c",
+      link: "/category/lighting"
     },
     {
       id: 2,
-      title: "Clothing",
-      image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158",
-      link: "/category/clothing"
+      title: "Textiles",
+      image: "https://images.unsplash.com/photo-1522758971460-1d21eed7dc1d",
+      link: "/category/textiles"
     },
     {
       id: 3,
-      title: "Accessories",
-      image: "https://images.unsplash.com/photo-1531297484001-80022131f5a1",
-      link: "/category/accessories"
+      title: "Decorative",
+      image: "https://images.unsplash.com/photo-1493957988430-a5f2e15f39a3",
+      link: "/category/decorative"
     },
     {
       id: 4,
-      title: "Furniture",
-      image: "https://images.unsplash.com/photo-1721322800607-8c38375eef04",
-      link: "/category/furniture"
+      title: "Storage",
+      image: "https://images.unsplash.com/photo-1584589167171-541ce45f1eea",
+      link: "/category/storage"
     }
   ];
 
   return (
     <section className="bg-gray-50 py-12">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold mb-8 text-center text-gray-900">Shop by Category</h2>
+        <h2 className="text-3xl font-bold mb-8 text-center text-gray-900">Shop by Collection</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {categories.map((category) => (
             <CategoryCard

@@ -9,5 +9,6 @@ export interface ProductType {
   options?: {
     color?: string[];
     size?: string[];
+    material?: string[];
   };
 }
